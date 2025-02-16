@@ -216,10 +216,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
   section.main__content ul.main__list_first li.main__item_first {
     width: calc((100% - 3 * 24px) / 4);
-    background-color: transparent;
+    /* background-color: transparent;
     border-radius: 0;
     background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px; */
   }
 
   .main__item_first .main__item-title, .main__item_first .main__item-text {
@@ -252,9 +252,6 @@ section.main__photo-section .section-title {
 ul.main__list_two li.main__item_two {
     color:#ffffff;
     border-radius: 0 0 4px 4px;
-}
-
-.main__photo-section .main__item_two {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -367,14 +364,10 @@ main section .main__projects .container {
     padding-bottom: 120px;
 }
 
-section ul li{
+/* section ul li{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-}
-
-/* main .section:nth-child(3) .container{
-    padding: 32px 0;
 } */
 
 .section-title {
