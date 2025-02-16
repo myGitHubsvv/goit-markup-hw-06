@@ -190,9 +190,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* ................................. MAIN SECOND SECTION ............................. */
 
-section.main__content {
+/* section.main__content {
     background-color: transparent;
-}
+} */
 
 .visually-hidden {
     position: absolute;
@@ -362,7 +362,7 @@ main section .main__projects .container {
 /* ................................. / MAIN FOURTH SECTION ........................... */
 
 .section {
-    background-color: #2e2f42;
+    /* background-color: #2e2f42; */
     padding-top: 120px;
     padding-bottom: 120px;
 }
