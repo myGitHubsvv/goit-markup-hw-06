@@ -207,7 +207,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 section.main__content {
-    padding: 32px 0;
+    /* padding: 32px 0; */
+    padding: 120px 0;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -227,6 +228,10 @@ section.main__content {
 
   .main__item_first .main__item-title, .main__item_first .main__item-text {
     text-align: left;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
 
 /* ................................. / MAIN SECOND SECTION ........................... */
@@ -268,6 +273,7 @@ img {
 
 .main__photo-section .main__item-content {
     padding: 32px 0;
+    background-color: #ffffff;
 }
 
 .main__item_two .main__item-text {
@@ -275,7 +281,7 @@ img {
     margin-bottom: 8px;
     color: #434455;
 }
-
+ 
 /* ................................. / MAIN THIRD SECTION ........................... */
 
 /* ................................... MAIN FOURTH SECTION ........................... */
