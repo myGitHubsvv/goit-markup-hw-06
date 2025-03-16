@@ -1,7 +1,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
     .page-header {
-        width: 768px;
+        max-width: 768px;
         box-sizing: border-box;
         margin: 0;
         padding: 15px 0 0 15px;
@@ -15,10 +15,9 @@
     justify-content: center; */
    }
 
-  
-
    .header__wrapper .header-nav {
     display: block;
+    margin-bottom: 168px;
     /* display: flex;
     flex-flow: column wrap; */
    }
@@ -53,9 +52,52 @@
    }
 
    .header__wrapper .contacts-list {
-    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    column-gap: 24px;
     /* gap: 40px 0; */
    }
+
+   .contacts-list .contacts-item:first-child {
+    order: 1;
+   }
+
+   .contacts-link {
+    padding: 0;
+   }
+
+  .main .main_title {
+    /* max-width: 216px; */
+    margin: 0 0 72px 7%;
+  }
+
+  .main .btn {
+    margin: 0;
+    margin-left: 7%;
+}
+
+.main .main__header {
+    max-width: 768px;
+}
+
+.main .main__content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main__item_first .icon-container {
+    display: none;
+}
+
+.main .main__content, .main__photo-section, .main__projects .main__list_three, .page-footer .footer-container {
+    padding-left: 15px;
+}
+
+.main .container {
+    max-width: 768px;
+    box-sizing: border-box;
+    padding: 0;
+}
 
    .container {
     padding-left: 0;
@@ -75,7 +117,7 @@
    .main__photo-section .section-title {
     display: flex;
     justify-self: start;
-    padding-left: 5%;
+    padding-left: 7%;
     box-sizing: border-box;
    }
 
@@ -112,7 +154,7 @@
     flex-flow: column wrap;
     box-sizing: border-box;
     align-content: start;
-    padding-left: 6%;
+    /* padding-left: 6%; */
     gap: 15px 0px;
     text-align: center;
     /* display: flex;
@@ -148,15 +190,29 @@
     flex-flow: column wrap;
    }
 
+   .modal-container {
+    display: none;
+   }
+
    .modal-window {
     top: 15%;
     left: 13.3%;
     width: 300px;
-    visibility: hidden;
    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+
+    .page-header {
+        max-width: 768px;
+    }
+
+    .header-nav .header-logo {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21;
+        letter-spacing: 3%;
+    }
 
 .container, .main, .main__header, .main__content .container, .main .section, .page-footer {
     max-width: 768px;
@@ -165,6 +221,7 @@
     .header__wrapper {
         display: flex;
         justify-content: space-between;
+        margin: 0;
     }
 
     .container {
