@@ -97,7 +97,8 @@
   }
 
 .main .main__header {
-    width: 768px;
+    /* width: 768px; */
+    min-width: 320px;
 }
 
 .main .main__content {
