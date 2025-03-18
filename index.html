@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-old.css">
+    <link rel="stylesheet" href="css/styles.css">  
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="JS/madal.js">
 </head>
@@ -35,49 +36,47 @@
                 </ul>
             </address>
         </div>
-        
+
         <!-- header__wrapper for mobile media querie-->
 
-        <div class="mobile_header__wrapper open-mobile_header" hidden>
-            <div class="burger-icon_container">
-                <span class="icon_2"></span>
-                <!-- <span class="burger-menu"><span></span></span> -->
-                <svg class="icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-burger-menus"></use>
-                </svg>
-            </div>
-            <nav class="header-nav">
-                <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
-                <div class="burger-icon_container">
-                    <svg class="icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-burger-menus"></use>
-                    </svg>
-                </div>
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link nav-link_underscore" href="./index.html">Studio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
-                </ul>
-            </nav>
-            <address class="contacts">
-                <ul class="contacts-list">
+        <div class="mobile-menue is-opened hidden" data-menu>
+            <div class="container mobile-menue-container">
+                <button class="mobile-menue-colose">Close</button>
+                <nav class="mobile-menue-nav">Navigation</nav>
+
+                <nav class="header-nav">
+                    <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+                    <div class="burger-icon_container">
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-burger-menus"></use>
+                        </svg>
+                    </div>
+                    <ul class="nav-list-2">
+                        <li class="nav-item"><a class="nav-link nav-link_underscore" href="./index.html">Studio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <address>Address</address>
+                <ul>Social links
                     <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
-            </address>
-        </div> 
+            </div>
+        </div>
         
     <!-- header__wrapper for mobile media querie /-->
 
     </header>
     <main class="main">
-        <section class="main__header section_first">
+        <section class="main__header section_first  ">
             <div class="container wrapper">
                 <h1 class="main_title">Effective Solutions for Your Business</h1>
                 <button class="btn" type="button">Order Service</button>
             </div>
         </section>
-        <section class="main__content section">
+        <section class="main__content section ">
             <div class="container">
                 <h2 class="section-title visually-hidden">Our Services</h2>
                 <ul class="main__list_first">
@@ -120,7 +119,7 @@
                 </ul>
             </div>
         </section>
-        <section class="main__photo-section section">
+        <section class="main__photo-section section ">
             <div class="container">
                 <h2 class="section-title">Our Team</h2>
                 <ul class="main__list_two">   
@@ -295,7 +294,7 @@
                 </ul>
             </div>
         </section>
-        <section class="main__projects section">
+        <section class="main__projects section ">
             <div class="container">
                 <h2 class="section-title">Our Portfolio</h2>
                 <ul class="main__list_three">
@@ -387,7 +386,7 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer ">
         <div class="container footer-container">
             <div class="footer-content">
                 <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -442,7 +441,7 @@
         </div>
     </footer>
 
-    <div class="modal-container is-opened" data-madal hidden>
+    <div class="modal-container is-opened hidden" data-madal >
         <div class="modal-window">
             <button class="modal-close-btn" type="button" data-modal-close>
                 <svg class="modal-close-icon" width="8" height="8">
@@ -499,5 +498,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
