@@ -98,27 +98,39 @@
 
 .main .main__header {
     /* width: 768px; */
-    min-width: 320px;
+    max-width: 320px;
 }
 
-.main .main__content {
-    padding-top: 120px;
-    padding-bottom: 120px;
+/* .main .main__content {
+    padding-top: 96px;
+    padding-bottom: 96px;
+} */
+
+.main .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .main__item_first .icon-container {
     display: none;
 }
 
-.main .main__content, .main__photo-section, .main__projects .main__list_three, .page-footer .footer-container {
+.main__photo-section, .main__projects .main__list_three, .page-footer .footer-container {
     padding-left: 15px;
 }
 
 .main .container {
     max-width: 320px;
     box-sizing: border-box;
-    padding: 0;
+    /* padding: 0; */
+    padding: 0 16px;
 }
+
+/* .main__content .container {
+    max-width: 320px;
+    box-sizing: border-box;
+    padding: 0 16px;
+} */
 
 .main .main_title {
     margin: 0 auto 48px;
@@ -174,17 +186,19 @@
     font-size: 36px;
    }
 
-   .main__list_two {
+   .main__photo-section ul.main__list_two {
     width: 100%;
     align-items: center;
+    gap: 31px 0;
    }
 
-   .main__item_two:not(:last-child) {
+   /* .main__item_two:not(:last-child) {
     margin-bottom: 72px;
-   }
+    margin-bottom: 31px;
+   } */
 
    ul.main__list_two li.main__item_two  {
-    width: 100%;
+    /* width: 100%; */
    }
 
    .main__item_two picture {
@@ -192,7 +206,6 @@
    }
 
    .main__item_two picture img {
-    margin: 0 auto;
     object-fit: cover;
    }
 
@@ -231,6 +244,11 @@
         width: 100%;
    }
 
+   .main__projects .img-container img {
+    max-width: 100%;
+    height: auto;
+   }
+
    .footer-container {
     flex-flow: column wrap;
     box-sizing: border-box;
@@ -246,6 +264,7 @@
 
    .page-footer .container{
     width: 320px;
+    gap: 0;
    }
 
    .footer-content {
@@ -273,12 +292,20 @@
    .social-media .social-icons {
     padding-left: 0;
     box-sizing: border-box;
-    transform: translate(10%, 0px);
+    /* transform: translate(10%, 0px); */
+   }
+
+   .subscribe-container {
+    margin-left: 0;
    }
 
    .subscribe-form {
     display: flex;
     flex-flow: column wrap;
+   }
+
+   .subscribe-label input {
+    width: 288px;
    }
 
    .subscribe-button {
@@ -291,9 +318,9 @@
    }
 
    .modal-window {
-    top: 15%;
-    left: 13.3%;
-    width: 300px;
+    /* top: 15%;
+    left: 13.3%; */
+    width: 288px;
    }
 }
 

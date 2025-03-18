@@ -207,7 +207,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 section.main__content {
     /* padding: 32px 0; */
     padding: 120px 0;
-    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
