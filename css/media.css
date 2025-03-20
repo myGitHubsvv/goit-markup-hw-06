@@ -544,6 +544,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .main__header .section_first .container {
+        max-width: 768px;
+    }
 
 .main__header {	
     background-image: linear-gradient(
