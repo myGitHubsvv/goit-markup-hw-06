@@ -302,6 +302,7 @@ img {
 
 /* ................................... MAIN FOURTH SECTION ........................... */
 
+
 .main__projects ul.main__list_three {
     display: flex;
     flex-wrap: wrap;
@@ -313,9 +314,11 @@ li.main__item_three {
     width: calc((100% - 48px) / 3);
 }
 
-.main__projects {
-    background-color: #ffffff;
-    padding: 120px 0;
+.main__projects .img-container img {
+
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
 }
 
 .main__projects .section-title, .main__projects .main__item-text {
