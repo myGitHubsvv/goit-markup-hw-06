@@ -527,8 +527,8 @@
 .main__projects ul.main__list_three {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 72px 24px;
-
 }
 
 .main__list_three .main__item_three {
