@@ -222,3 +222,50 @@ h1, h2, h3, h4, h5, h6, p, ul {
 } 
 
 /* header / */
+
+/* main */
+
+.section {
+    margin-bottom: 24px;
+}
+
+
+/* section main__header */
+
+ .main__header {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.section_first {
+    margin-bottom: 24px;
+}
+
+/* section main__header / */
+
+/* section main__content */
+
+.main__content {
+    padding: 16px;
+    background-color: #ffffff;
+
+}
+
+/* section main__content / */
+
+/* section main__photo-section */
+
+
+/* section main__photo-section / */
+
+
+/* section main__projects */
+
+
+/* section main__projects / */
+
+/* main / */
+
+/* footer */
+
+/* footer / */
