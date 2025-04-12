@@ -491,7 +491,7 @@
         max-width: 768px;
     }
 
-.main__header {	
+/* .main__header {	
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
@@ -507,17 +507,17 @@
       ),
       url('../images/people-office-2x.jpg');
   }
-}
+} */
 }
 
 @media screen and (min-width: 768px) {
 
-        .main__header {	
+     .main__header {	
         background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
        ), url(../images/people-office-1x.jpg);
-        }
+        } 
         
         @media (min-resolution: 2x){
         .main__header {
@@ -526,7 +526,7 @@
         rgba(46, 47, 66, 0.7)
        ), url(../images/people-office-2x.jpg);
         }
-        }
+        } 
     }
 
     @media screen and (min-width: 1158px) {
