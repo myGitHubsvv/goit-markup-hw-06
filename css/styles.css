@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     visibility: hidden;
 } 
 
-/* common */
+/* COMMON */
 
  .container {
     max-width: 320px;
@@ -69,7 +69,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
     }
 }
 
-/* header */
+/* COMMON */
+
+/* HEADER */
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -99,6 +101,34 @@ h1, h2, h3, h4, h5, h6, p, ul {
         padding: 0 15px;
     }
 }
+
+
+
+
+
+
+.header-nav {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.5px 0;
+    box-sizing: border-box;
+    margin: 0;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nav-list, .header__wrapper .contacts {
     display: none;
@@ -240,14 +270,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
     }
 } 
 
-/* header / */
+/* HEADER / */
 
-/* main */
+/* MAIN */
 
-.section {
+/* .section {
     margin-bottom: 24px;
-}
-
+} */
 
 /* section main__header */
 
@@ -256,9 +285,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-color: #f5f5f5;
 }
 
-/* .section_first {
-    margin-bottom: 24px;
-} */
 
 /* section main__header / */
 
@@ -289,8 +315,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* section main__projects / */
 
-/* main / */
+/* MAIN / */
 
-/* footer */
+/* FOOTER */
 
-/* footer / */
+/* FOOTER / */
