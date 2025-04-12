@@ -1,19 +1,19 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    .page-header {
-        /* max-width: 767px; */
+    /* .page-header {
+        
         display: flex;
 
         box-sizing: border-box;
         margin: 0;
         padding: 0 15px;
 
-        /* border: 5px solid green; */
-       }
+        
+       } */
 
-       .header__wrapper {
+       /* .header__wrapper {
         padding: 16px;
-       }
+       } */
 
        .header-nav {
         width: 100%;
@@ -23,13 +23,6 @@
         padding: 1.5px 0;
         box-sizing: border-box;
         margin: 0;
-    
-        /* border: 2px dashed blue; */
-        /* margin-bottom: 168px; */
-        
-        /* display: flex;
-        flex-flow: column wrap; */
-        
        }
 
        .header-nav .burger-icon_container {
@@ -72,10 +65,6 @@
         top: -5px;
        }
 
-       /* .page-header .header-nav, .page-header .contacts {
-        display: none;
-       } */
-
        .mobile_header__wrapper {
         display: block;
         position: relative;
@@ -89,27 +78,7 @@
 
        .open-mobile_header {
         display: none;
-
        }
-
-   .page-header .container {
-    /* width: 320px; */
-
-    /* padding-bottom: 40px; */
-
-    /* display: block; */
-    
-    /* display: flex;
-    flex-flow: column wrap;
-    justify-content: center; */
-   }
-
-   /* .header__wrapper .container {
-    width: 320px;
-    padding-bottom: 40px;
-   } */
-
-  
 
    .open-mobile_header .contacts-list {
     display: flex;
@@ -132,15 +101,9 @@
     display: none;
    }
 
-   /* .header-nav .nav-list, .header-nav .contacts {
-    display: none;
-    position: absolute;
-    top: -9999px;
+   /* .nav-list:nth-child(2) {
+    grid-gap: 40px 0;
    } */
-
-   .nav-list:nth-child(2) {
-    /* grid-gap: 40px 0; */
-   }
 
    .nav-list li a {
     font-size: 36px;
@@ -167,10 +130,10 @@
     padding: 0;
    }
 
-  .main .main_title {
-    /* max-width: 216px; */
-    /* margin: 0 0 72px 7%; */
-  }
+  /* .main .main_title {
+    max-width: 216px;
+    margin: 0 0 72px 7%;
+  } */
 
 .main .section {
     padding-top: 96px;
@@ -185,16 +148,10 @@
     padding-left: 15px;
 }
 
-.main .container {
+/* .main .container {
     max-width: 320px;
     box-sizing: border-box;
-    /* padding: 0; */
-    padding: 0 16px;
-}
-
-/* .main__content .container {
-    max-width: 320px;
-    box-sizing: border-box;
+   
     padding: 0 16px;
 } */
 
@@ -206,12 +163,6 @@
     display: block;
     margin: 0 auto;
 }
-
-   .container {
-    padding-left: 0;
-    padding-right: 0;
-   }
-
 
    .social-icons {
     padding-left: 1.5%;
@@ -258,11 +209,6 @@
     align-items: center;
     gap: 31px 0;
    }
-
-   /* .main__item_two:not(:last-child) {
-    margin-bottom: 72px;
-    margin-bottom: 31px;
-   } */
 
    ul.main__list_two li.main__item_two  {
     /* width: 100%; */
@@ -319,20 +265,16 @@
    .footer-container {
     flex-flow: column wrap;
     box-sizing: border-box;
-    /* align-content: start; */
-    /* padding-left: 6%; */
+   
     gap: 15px 0px;
     text-align: center;
     align-items: center;
-    /* display: flex;
-    flex-flow: column wrap;
-    align-content: start; */
    }
 
-   .page-footer .container{
+   /* .page-footer .container{
     width: 320px;
     gap: 0;
-   }
+   } */
 
    .footer-content {
     margin-right: 0;
@@ -391,42 +333,19 @@
    }
 }
 
-/* @media screen and (max-width: 768px) {
-    .main section {
-        width: 100%;
-    }
-    .main .container {
-        max-width: 767px;
-    }
-} */
-
 @media screen and (min-width: 767px) and (max-width: 1157px) {
-
-    .page-header {
-        /* max-width: 768px; */
-        margin-left: 0;
-        margin-right: 0;
-        
-        /* max-width: 768px; */
-        width: 100%;
-    }
 
     .page-header .container {
         align-items: flex-start;
         min-width: 100%;
     }
     
-
     .header-nav .header-logo {
         font-weight: 700;
         font-size: 18px;
         line-height: 21;
         letter-spacing: 3%;
     }
-
-/* .container, .main, .main__header, .main__content .container, .main .section, .page-footer {
-    max-width: 768px; 
-} */
 
 .container{
     max-width: 768px; 
@@ -438,8 +357,6 @@
         margin: 0;
         padding: 24px 16px;
     }
-
-    
 
     .header-nav {
         flex-direction: row;
@@ -549,8 +466,7 @@
 }
 
 .subscribe-container {
-    margin: 72px 0 0;
-    
+    margin: 72px 0 0;   
 }
 
 }
@@ -560,6 +476,7 @@
     .header__wrapper .contacts, .header__wrapper .nav-list  {
         display: flex;
     }
+
     .header-nav {
         flex-direction: row;
     }

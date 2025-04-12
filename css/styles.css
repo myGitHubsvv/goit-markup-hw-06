@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
  .container {
     max-width: 320px;
-    padding: 0 16px;
+    /* padding: 0 16px; */
     margin: 0 auto;
 } 
 
@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(36, 47, 66 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.16);
 }
 
@@ -80,6 +81,23 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* .page-header .container {
+    max-width: 320px;
+} */
+
+@media screen and (min-width: 768px) {
+    .page-header .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .page-header .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
 }
 
 .nav-list, .header__wrapper .contacts {
