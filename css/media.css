@@ -271,11 +271,6 @@
     align-items: center;
    }
 
-   /* .page-footer .container{
-    width: 320px;
-    gap: 0;
-   } */
-
    .footer-content {
     margin-right: 0;
    }
@@ -337,7 +332,8 @@
 
     .page-header .container {
         align-items: flex-start;
-        min-width: 100%;
+        max-width: 1158px;
+        /* min-width: 100%; */
     }
     
     .header-nav .header-logo {
@@ -354,7 +350,7 @@
     .header__wrapper {
         display: flex;
         justify-content: space-between;
-        margin: 0;
+        /* margin: 0; */
         padding: 24px 16px;
     }
 
